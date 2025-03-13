@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           </div>
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in-up" style={{ animationDelay: '300ms' }}>
             <Button size="lg" asChild>
-              <a href="#masterclass">
+              <a href="https://sp.datasciencemasterminds.com/masterclass" target="_blank" rel="noopener noreferrer">
                 Join My Masterclass <ArrowRight className="ml-2 h-4 w-4" />
               </a>
             </Button>

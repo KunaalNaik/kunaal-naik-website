@@ -25,9 +25,9 @@ const Header: React.FC = () => {
           <a href="#mission" className="text-foreground/80 hover:text-foreground transition-colors">Mission</a>
           <a href="#vision" className="text-foreground/80 hover:text-foreground transition-colors">Vision</a>
           <a href="#offerings" className="text-foreground/80 hover:text-foreground transition-colors">Offerings</a>
-          <a href="#contact" className="text-foreground/80 hover:text-foreground transition-colors">Connect</a>
+          <a href="#connect" className="text-foreground/80 hover:text-foreground transition-colors">Connect</a>
           <Button variant="default" size="sm" asChild>
-            <a href="#masterclass">Join Masterclass</a>
+            <a href="https://sp.datasciencemasterminds.com/masterclass" target="_blank" rel="noopener noreferrer">Join Masterclass</a>
           </Button>
         </nav>
 
@@ -69,14 +69,21 @@ const Header: React.FC = () => {
             Offerings
           </a>
           <a 
-            href="#contact" 
+            href="#connect" 
             className="text-foreground/80 hover:text-foreground transition-colors"
             onClick={toggleMobileMenu}
           >
             Connect
           </a>
           <Button variant="default" size="sm" asChild className="w-full">
-            <a href="#masterclass" onClick={toggleMobileMenu}>Join Masterclass</a>
+            <a 
+              href="https://sp.datasciencemasterminds.com/masterclass" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              onClick={toggleMobileMenu}
+            >
+              Join Masterclass
+            </a>
           </Button>
         </nav>
       </div>

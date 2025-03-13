@@ -7,14 +7,14 @@ const ContactLinks: React.FC = () => {
   const socialLinks = [
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/placeholder",
+      url: "https://www.linkedin.com/in/kunaal-naik/",
       icon: <Linkedin className="h-5 w-5" />,
       followers: "25K+ Followers",
       color: "bg-[#0077B5]/10 text-[#0077B5] hover:bg-[#0077B5]/20"
     },
     {
       name: "YouTube",
-      url: "https://youtube.com/c/placeholder",
+      url: "https://www.youtube.com/KunaalNaik",
       icon: <Youtube className="h-5 w-5" />,
       followers: "10K+ Subscribers",
       color: "bg-[#FF0000]/10 text-[#FF0000] hover:bg-[#FF0000]/20"
@@ -28,7 +28,7 @@ const ContactLinks: React.FC = () => {
     },
     {
       name: "Website",
-      url: "https://placeholder.com",
+      url: "https://sp.datasciencemasterminds.com/masterclass",
       icon: <Link className="h-5 w-5" />,
       followers: "Data Science Masterminds",
       color: "bg-secondary hover:bg-secondary/80"

@@ -37,17 +37,21 @@ const MasterclassPromo: React.FC = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button size="lg" className="w-full">
-                Register Now <ArrowRight className="ml-2 h-4 w-4" />
+              <Button size="lg" className="w-full" asChild>
+                <a href="https://sp.datasciencemasterminds.com/masterclass" target="_blank" rel="noopener noreferrer">
+                  Register Now <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
               </Button>
-              <Button variant="outline" size="lg" className="w-full">
-                Learn More
+              <Button variant="outline" size="lg" className="w-full" asChild>
+                <a href="https://sp.datasciencemasterminds.com/masterclass" target="_blank" rel="noopener noreferrer">
+                  Learn More
+                </a>
               </Button>
             </div>
           </div>
           
           <p className="text-sm text-muted-foreground">
-            Limited seats available. Next cohort starts on [Date Placeholder].
+            Limited seats available. Next cohort starts soon!
           </p>
         </div>
       </div>
